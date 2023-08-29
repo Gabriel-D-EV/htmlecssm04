@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        iframe {
+            width: 80vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+        body {
+            background-color: rgb(171, 136, 198);
+        }
+        a:hover {
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iframe</h1>
+    <p>
+        site criado no curso em video: 
+    </p>
+    <iframe src="https://gabriel-d-ev.github.io/projetoaula16/" frameborder="0" height="500" width="400"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quam eveniet at facilis tempora incidunt qui magnam, perferendis quisquam quidem, sunt autem iste beatae repellat minima natus fugit dolores in?</p>
+    <a href="inicio.html" target="frame">Inicio</a>
+    <a href="https://gabriel-d-ev.github.io/projetoaula16/" target="frame">Site no GitHub</a>
+
+    <iframe name="frame" srcdoc="<h1>
+        Click numa das opções acima!</h1><img src='/imagens/don.jpg'>" frameborder="0"></iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo magnam modi nulla quae, obcaecati voluptatum, quisquam quis saepe asperiores commodi optio assumenda dolor nostrum id ipsam earum autem! Aliquid, suscipit?</p>
+    <iframe src="teste.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"></iframe>
+    <h2>Mapas</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29199.103484670857!2d-46.73818770000006!3d-23.82258369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1693286003564!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <button><a href="inicio.html">Voltar</a></button>
+    </footer>
+</body>
+</html>

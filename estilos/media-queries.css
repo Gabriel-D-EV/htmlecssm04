@@ -24,6 +24,18 @@
     body {
         background-image: url(../imagens/back-tablet.jpg);
     }
+    main {
+        width: 90vw;
+    }
+    #burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    li {
+        display: inline-block;
+    }
     img#phone {display: none; }
     img#tablet {display: block; }
     img#print {display: none;}
@@ -36,6 +48,18 @@
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
+    main {
+        width: 90vw;
+    }
+    #burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    li {
+        display: inline-block;
+    }
     img#phone {display: none; }
     img#tablet {display: none; }
     img#print {display: none;}
@@ -47,6 +71,18 @@
 @media  screen and (min-width: 1200px) {
     body {
         background-image: url(../imagens/back-tv.jpg);
+    }
+    main {
+        width: 800px;
+    }
+    #burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    li {
+        display: inline-block;
     }
     img#phone {display: none; }
     img#tablet {display: none; }

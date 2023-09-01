@@ -18,16 +18,66 @@ body {
 }
 main {
     background-color: rgba(255, 228, 196, 0.686);
-    width: 400px;
+    width: 90vw;
     margin: auto;
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
 }
+#burguer {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burguer:hover {
+    background-color: white;
+    color: black;
+}
+menu {
+    display: none;
+}
+article {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+header {
+    background-color: gray;
+}
+ul {
+    list-style-type: none;    
+}
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+li a:hover {
+    background-color: rgb(194, 193, 193);
+    color: black;
+    font-weight: bolder;
+}
 h1 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.612);
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 img {
     display: block;
